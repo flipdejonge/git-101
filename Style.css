@@ -4,3 +4,17 @@ body {
 
 
 }
+#logo {
+  height: 150px;
+  widows: 150px;
+
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+
+}
