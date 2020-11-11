@@ -1,3 +1,10 @@
+head {
+  background-image: flex;
+  height: 10px;
+
+}
+
+
 body {
   margin: 0;
   font-family: Helvetica;
@@ -8,12 +15,14 @@ body {
 
 }
 #logo {
-  height: 100%;
-  /*widows: 100px;*/
-  /*display: block;*/
+  height: 50%;
+  widows: 100px;
+  display: block;
 
-
-
+}
+#background-picture {
+  display: flex;
+  flex-direction: column;
 }
 
 #container {
@@ -22,10 +31,20 @@ body {
   justify-content: center;
   height: 100vh;
   flex-direction: column;
+  width: 100%;
+
 
 }
 
 footer {
   text-align-last: center;
+
+}
+
+h1 {
+  color: rgb(37,76,150);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
