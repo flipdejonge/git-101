@@ -1,12 +1,18 @@
 body {
   margin: 0;
   font-family: Helvetica;
+  background-color: white;
+
+  ;
 
 
 }
 #logo {
-  height: 150px;
-  widows: 150px;
+  height: 100%;
+  /*widows: 100px;*/
+  /*display: block;*/
+
+
 
 }
 
@@ -16,5 +22,10 @@ body {
   justify-content: center;
   height: 100vh;
   flex-direction: column;
+
+}
+
+footer {
+  text-align-last: center;
 
 }
